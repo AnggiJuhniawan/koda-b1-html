@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <h1>Hasil Survei Perokok</h1>
+    <form action="#" method="get">
+      <div>
+        <label for="name">Siapa nama anda</label>
+        <input type="text" id="name" name="nama" required="required" />
+      </div>
+      <div>
+        <label for="umur">Berapa umur anda?</label>
+        <input type="number" id="umur" name="umur" required="required" />
+      </div>
+      <div>
+        <label for="Jenis">Apa jenis kelamin anda?</label>
+        <input type="radio" id="laki" name="jenis_kelamin" value="Laki-laki" />
+        <label for="laki">Laki-laki</label>
+        <input type="radio" id="perempuan" name="jenis_kelamin" />
+        <label for="cewe">Perempuan</label>
+      </div>
+      <div>
+        <label for="">Apakah anda perokok?</label>
+        <input type="radio" id="perokok" name="perokok" value="Ya" />
+        <label for="perokok">Ya</label>
+        <input type="radio" id="tidak" name="perokok" />
+        <label for="tidak">Tidak</label>
+      </div>
+      <div>
+        <p>Jika anda perokok, rokok apa yang pernah dicoba?</p>
+        <input type="checkbox" id="gg" name="rokok" value="Gudang Garam" />
+        <label for="gg">Gudang garam</label>
+        <input type="checkbox" id="lucky" name="rokok" value="Lucky Strike" />
+        <label for="malboro">Malboro</label>
+      </div>
+      <button type="submit">OK</button>
+    </form>
+  </body>
+</html>
