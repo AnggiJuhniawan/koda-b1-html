@@ -5,11 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Form</title>
   </head>
+  <style>
+    label {
+      color: green;
+      font-size: 18px;
+      font-weight: bold;
+      letter-spacing: 1rem;
+    }
+    label.big {
+      font-size: 20px;
+      background-color: red;
+      font-weight: bold;
+    }
+    .red {
+      color: aqua;
+      letter-spacing: 2px;
+    }
+  </style>
   <body>
-    <h1>Hasil Survei Perokok</h1>
+    <h1 class="big">Hasil Survei Perokok</h1>
     <form action="#" method="get">
       <div>
-        <label for="name">Siapa nama anda</label>
+        <label for="name" class="big red">Siapa nama anda</label>
         <input type="text" id="name" name="nama" required="required" />
       </div>
       <div>
